@@ -14,7 +14,7 @@
         </value>
         <next>
           <block type="oled_drawtext" id="73">
-            <field name="TEXT">45 / 0 =</field>
+            <field name="TEXT"></field>
             <next>
               <block type="oled_setcursor" id="82" inline="true">
                 <value name="STARTX">
@@ -31,15 +31,15 @@
                   <block type="oled_drawnumber" id="100" inline="true">
                     <value name="NUMBER">
                       <block type="math_arithmetic" id="121" inline="true">
-                        <field name="OP">DIVIDE</field>
+                        <field name="OP">MULTIPLY</field>
                         <value name="A">
                           <block type="math_number" id="128">
-                            <field name="NUM">45</field>
+                            <field name="NUM">4.7987859465432164e+39</field>
                           </block>
                         </value>
                         <value name="B">
                           <block type="math_number" id="139">
-                            <field name="NUM">0</field>
+                            <field name="NUM">4.546463512545646e+40</field>
                           </block>
                         </value>
                       </block>
