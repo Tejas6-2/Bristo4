@@ -14,7 +14,7 @@
         </value>
         <next>
           <block type="oled_drawtext" id="73">
-            <field name="TEXT">0 / 45 =</field>
+            <field name="TEXT">45 / 0 =</field>
             <next>
               <block type="oled_setcursor" id="82" inline="true">
                 <value name="STARTX">
@@ -34,12 +34,12 @@
                         <field name="OP">DIVIDE</field>
                         <value name="A">
                           <block type="math_number" id="128">
-                            <field name="NUM">0</field>
+                            <field name="NUM">45</field>
                           </block>
                         </value>
                         <value name="B">
                           <block type="math_number" id="139">
-                            <field name="NUM">45</field>
+                            <field name="NUM">0</field>
                           </block>
                         </value>
                       </block>
